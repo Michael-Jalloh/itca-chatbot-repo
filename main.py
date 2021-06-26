@@ -1,6 +1,6 @@
 import requests as r
 
-token = "1892826956:AAFeIlCxKLADu-9udajcQABhWK151eqhauU"
+token = ""
 base_url = f"https://api.telegram.org/bot{token}/"
 
 data = r.get(base_url+"getupdates").json()
